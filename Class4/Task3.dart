@@ -11,11 +11,11 @@ void main(List<String> args) {
   int number = int.parse(stdin.readLineSync().toString());
 
   if (number == 1) {
-    print("Not Prime number");
+    print("Prime number");
     return;
   }
 
-  //Prime number only divide by  itself and greate
+  //number divide by 1 and number itself excludes others is prime
 
   for (int num = 2; num < number; num++) {
     if (number % num == 0) {
