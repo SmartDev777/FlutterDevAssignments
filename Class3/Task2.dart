@@ -1,8 +1,10 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  print(
-      "(2)Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a  variable & calculate the cost of buying 5 tickets to a movie. ");
+  
+  // (2)Cost of one movie ticket is 600 PKR. 
+  //Write a script to store ticket price in a 
+  // variable & calculate the cost of buying 5 tickets to a movie. ");
 
   var ticketPrice = 600;
 

@@ -42,7 +42,7 @@ Let’s say we have a list with mix data such as String and int and we just want
  * This method returns a single value by iterating all elements of given list along with an initialValue , ie, if we want sum of all elements or product of all elements, then, fold helps us to do that.
  */
   var lst = [1, 2, 3, 4, 5];
-  var res = lst.fold(5, (i, j) => 'i+j');
+  var res = lst.fold(5, (i, j) => i+j);
   print('res is ${res}'); // res is 20
 
   /**

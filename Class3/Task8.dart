@@ -7,6 +7,7 @@ student, display the scores & percentages sof students.
  */
 
 void main(List<String> args) {
+  
   var students = [];
   var scores = [];
   var results = [];
@@ -29,8 +30,8 @@ void main(List<String> args) {
   print("Enter student 3 score ");
   scores.add(int.parse(stdin.readLineSync().toString()));
 
-  final map = Map<int, num>.fromIterable(scores,
-      key: (item) => item, value: (item) => (item / 500) * 100);
+  final map = Map<int, String>.fromIterable(scores,
+      key: (item) => item, value: (item) => ((item / 500) * 100));
 
   print(map);
 }
